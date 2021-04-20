@@ -1,0 +1,70 @@
+.form {
+  position: left;
+  width: 300px;
+  height: 450px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+form textarea {
+  width: 100%;
+  height: 90%;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+.note__button {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  float: right;
+  right: -15px;
+  top: -15px;
+  background: #3f51b5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  cursor: pointer;
+  outline: none;
+}
+
+.delete__button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  right: -15px;
+  top: -15px;
+  background: #f05b5b;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  cursor: pointer;
+  outline: none;
+}
+
+.note {
+  background: #ffff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175, 175, 175);
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  margin-right: 0;
+  width: 300px;
+  height: 450px;
+}

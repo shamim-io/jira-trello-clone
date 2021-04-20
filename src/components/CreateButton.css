@@ -1,0 +1,32 @@
+.project__select {
+  width: 20rem;
+  height: 2.2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  background-color: rgb(243, 243, 243);
+}
+
+.modal__row {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.project__input {
+  background-color: rgb(243, 243, 243);
+  width: 45rem;
+  height: 2.2rem;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.project__textarea {
+  background-color: rgb(243, 243, 243);
+  width: 45rem;
+  height: 10rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
